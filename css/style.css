@@ -68,6 +68,6 @@ nav p{float: left; width: 33.3%;text-align: center;height:80px;background: #f2f2
 .hide{display: hide;}
 
 .article{position: relative;}
-.video,.select,.hongbao{position:absolute;left:0;top:40px}
+.video,.select,.hongbao{position:absolute;left:0;top:120px}
 
 .di{background: #969696;color:#FFFFFF;font-weight: bold;}
