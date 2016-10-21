@@ -48,7 +48,7 @@ div.flicking_con a.on{background-position:0 -21px}
 
 /*菜单CSS*/
 
-nav p{float: left; width: 33.3%;text-align: center;height:80px;background: #f2f2f2;line-height: 80px;font-size:30px;}
+nav p{float: left; width: 33.3%;text-align: center;height: 40px;background: #f2f2f2;line-height: 40px;}
 .video .v-1{clear: both; padding-top:10px; height: 40px;}
 .video .v-1 img,p{float:left;}
 .video .v-1 p{line-height: 60px;height: 40px;}
