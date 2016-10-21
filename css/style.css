@@ -27,14 +27,14 @@ a:hover { color: #D40000; text-decoration: none}
 .keUrl:hover{ text-decoration: underline; color: #FFF; }
 .mKeBanner,.mKeBanner div{text-align:center;}
 /*科e互联特效基本框架CSS结束，应用特效时，以上样式可删除*/
-.main_visual{height:200px;border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+.main_visual{height:125px;border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
 .main_image{height:200px;overflow:hidden;position:relative;}
 .main_image ul{width:9999px;height:200px;overflow:hidden;position:absolute;top:0;left:0}
 .main_image li{float:left;width:100%;height:200px;}
 .main_image li span{display:block;width:100%;height:200px}
 .main_image li a{display:block;width:100%;height:200px}
-.main_image li .img_1{background:url('img_1.jpg') center top no-repeat}
-.main_image li .img_2{background:url('img_1.jpg') center top no-repeat}
+.main_image li .img_1{background:url('img_1.jpg') center top no-repeat;background-size: contain;}
+.main_image li .img_2{background:url('img_2.jpg') center top no-repeat;background-size: contain;}
 .main_image li .img_3{background:url('img_3.jpg') center top no-repeat}
 .main_image li .img_4{background:url('img_4.jpg') center top no-repeat}
 .main_image li .img_5{background:url('img_5.jpg') center top no-repeat}
@@ -51,15 +51,15 @@ nav p{float: left; width: 33.3%;text-align: center;height: 40px;background: gray
 
 .video .v-1 {clear: both; padding-top:10px; height: 70px;width: 100%; border-bottom: 1px solid #EEE9E9;}
 .video .v-1 img,p{float:left;}
-.video .v-1 p{padding-top:15px;height: 40px;padding-left: 15px;font-size: 16px; }
+.video .v-1 p{padding-top:15px;height: 40px;padding-left: 10px;font-size: 16px; }
 
 .hongbao .h-1{clear: both; padding-top:10px; height: 70px;width: 100%; border-bottom: 1px solid #EEE9E9;}
 .hongbao .h-1 img,p{float:left;}
-.hongbao .h-1 p{padding-top:15px;height: 40px;padding-left: 15px;font-size: 16px; }
+.hongbao .h-1 p{padding-top:15px;height: 40px;padding-left: 10px;font-size: 16px; }
 
 .select .s-1{clear: both; padding-top:10px; height: 70px;width: 100%; border-bottom: 1px solid #EEE9E9;}
 .select .s-1 img,p{float:left;}
-.select .s-1 p{padding-top:15px;height: 40px;padding-left: 15px;font-size: 16px; }
+.select .s-1 p{padding-top:15px;height: 40px;padding-left: 10px;font-size: 16px; }
 
 .hongbao{display: none;}
 .select{display: none;}
